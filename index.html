@@ -130,7 +130,7 @@
 
             const k0 = dose / infusion_time;
             const k10 = cl1 / v1;
-            const k12 = cl1 / v1;
+            const k12 = cl2 / v1;
             const k21 = cl2 / v2;
 
             const alpha = (k10 + k12 + k21 + Math.sqrt((k10 + k12 + k21) ** 2 - 4 * k10 * k21)) / 2;
